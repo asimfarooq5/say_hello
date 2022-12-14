@@ -6,7 +6,7 @@ setup(
     packages=['say_hello'],
     entry_points={
         'console_scripts': [
-            'hello = say_hello.say:hello',
+            'hello = say_hello.py:hello',
         ]
     }
 )
